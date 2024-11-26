@@ -5,6 +5,7 @@ import re
 import sys
 
 from rich.markdown import Markdown
+from rich.console import Console
 from textual.app import App, ComposeResult
 from textual.widgets import Static
 from textual.containers import Horizontal, Vertical
@@ -15,31 +16,13 @@ client = OpenAI(
 )
 
 
-def analyze_german_sentence(sentence):
-    # The prompt instructs ChatGPT to analyze the German sentence
-    prompt = f"Analyze the following German sentence: '{sentence}'. Explain the grammar, vocabulary, and meaning."
-
-    # Send the prompt to ChatGPT
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            },
-        ],
-    )
-    # Extract the response text
-    analysis = response.choices[0].message.content
-    return analysis
-
-
 def translate_text(input_text):
     # The prompt instructs ChatGPT to analyze the German input_text
-    prompt = (f"Translate the following German sentence or word: '{input_text}'. Correct, if necessary.\n"
-              "- Provide pronouns, articles, conjugations for all nouns\n"
-              "- Provide simple example sentences for Nominative, Accusative, Dative\n"
-              "- Try use the same nouns in the example sentences")
+    prompt = ("Translate the following German to english "
+              f"or english to German: '{input_text}'.\n"
+              "If a single word is given, provide the singular and plural"
+              "forms and articles. Mention the gender of the articles.\n"
+              "Correct, if necessary.\n")
 
     # Send the prompt to ChatGPT
     response = client.chat.completions.create(
@@ -52,12 +35,12 @@ def translate_text(input_text):
         ],
     )
     # Extract the response text
-    analysis = response.choices[0].message.content
-    return analysis
+    translation = response.choices[0].message.content
+    return translation
 
 
 def format_response(response):
-    response = "### Analysis/Translation\n" + response
+    response = "### Translation\n" + response
     # Split the response by sections starting with ###
     sections = re.split(r"(### .+)", response)
     formatted_sections = []
@@ -67,6 +50,13 @@ def format_response(response):
         markdown_text = f"{header}\n\n{content}"
         formatted_sections.append(Markdown(markdown_text))
     return formatted_sections
+
+
+def log_raw_markdown(input_text, translation):
+    log_text = f"# Input\n{input_text}\n\n# Translation\n{translation}\n\n"
+    file_path = os.path.expanduser("~/.german/translations.md")
+    with open(file_path, "a") as log:
+        log.write(log_text)
 
 
 def make_rows(format_response):
@@ -122,34 +112,21 @@ class VerticalLayoutExample(App):
 
 if __name__ == "__main__":
 
-    if '-r' in sys.argv:
-        raw = True
-        sys.argv.remove('-r')
-    else:
-        raw = False
+    try:
+        sys.argv[1]
+        input_text = " ".join(sys.argv[1:])
+    except IndexError:
+        input_text = input("Enter word or sentence in German or English: ")
 
-    if '-t' in sys.argv:
-        translate = True
-    else:
-        translate = False
-
-    input_text = input("Enter a German sentence: ")
     if not input_text:
         sys.exit()
 
-    # Get analysis]
-    if translate:
-        analysis = translate_text(input_text)
-    else:
-        analysis = analyze_german_sentence(input_text)
+    translation = translate_text(input_text)
 
-    # Format the analysis
-    formatted_response = format_response(analysis)
+    # Format the translation
+    formatted_response = format_response(translation)
 
-    if raw:
-        print(analysis)
-        print("--------------------")
-        print(formatted_response)
-    else:
-        app = VerticalLayoutExample()
-        app.run()
+    log_raw_markdown(input_text, translation)
+
+    app = VerticalLayoutExample()
+    app.run()
