@@ -17,7 +17,7 @@ client = OpenAI(
 )
 
 
-def translate_text(input_text):
+def get_translation_from_chatgpt(input_text):
     # The prompt instructs ChatGPT to analyze the German input_text
     prompt = ("Translate the following German to english "
               f"or english to German: '{input_text}'.\n"
@@ -169,8 +169,7 @@ if __name__ == "__main__":
         sys.exit()
 
     if not is_input_in_json(json_file_path, input_text):
-        # get translation from chatgpt
-        translation = translate_text(input_text)
+        translation = get_translation_from_chatgpt(input_text)
         log_to_json(json_file_path, input_text, translation)
     else:
         translation = get_translation_from_json(json_file_path, input_text)
