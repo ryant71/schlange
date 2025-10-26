@@ -23,7 +23,8 @@ def get_translation_from_chatgpt(input_text):
               f"or english to German: '{input_text}'.\n"
               "If a single word is given, provide the singular and plural"
               "forms and articles. Mention the gender of the articles.\n"
-              "Correct, if necessary.\n")
+              "Correct any words and sentence structure, if necessary.\n"
+              "Additionally, tell me if a sentence is Akkusativ, Dativ, etc., and why.\n")
 
     # Send the prompt to ChatGPT
     response = client.chat.completions.create(
@@ -163,7 +164,11 @@ if __name__ == "__main__":
         sys.argv[1]
         input_text = " ".join(sys.argv[1:])
     except IndexError:
-        input_text = input("Enter word or sentence in German or English: ")
+        try:
+            input_text = input("Enter word or sentence in German or English: ")
+        except KeyboardInterrupt:
+            print('Goodbye')
+            sys.exit(0)
 
     if not input_text:
         sys.exit()

@@ -1,0 +1,24 @@
+{
+  "nouns": [
+    {
+      "lemma": "Hund",
+      "gender": "m",
+      "plural": "Hunde"
+    },
+    {
+      "lemma": "Katze",
+      "gender": "f",
+      "plural": "Katzen"
+    },
+    {
+      "lemma": "Buch",
+      "gender": "n",
+      "plural": "Bücher"
+    },
+    {
+      "lemma": "Eltern",
+      "gender": "pl",
+      "plural": "Eltern"
+    }
+  ]
+}

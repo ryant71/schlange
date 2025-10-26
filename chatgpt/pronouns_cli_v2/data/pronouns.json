@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "version": "2.0",
+    "created": "2025-10-19T11:13:21.332653Z"
+  },
+  "items": [
+    {
+      "id": "p_ich",
+      "type": "personal",
+      "english": "I",
+      "german": "ich"
+    },
+    {
+      "id": "p_du",
+      "type": "personal",
+      "english": "you (sg informal)",
+      "german": "du"
+    },
+    {
+      "id": "p_er",
+      "type": "personal",
+      "english": "he",
+      "german": "er"
+    },
+    {
+      "id": "p_sie",
+      "type": "personal",
+      "english": "she/they",
+      "german": "sie"
+    },
+    {
+      "id": "p_wir",
+      "type": "personal",
+      "english": "we",
+      "german": "wir"
+    },
+    {
+      "id": "p_Sie",
+      "type": "personal",
+      "english": "you (formal)",
+      "german": "Sie"
+    },
+    {
+      "id": "pos_mein_buch",
+      "type": "possessive",
+      "english": "my book",
+      "german": "mein Buch"
+    },
+    {
+      "id": "pos_sein_hund",
+      "type": "possessive",
+      "english": "his dog",
+      "german": "sein Hund"
+    },
+    {
+      "id": "pos_ihr_katze",
+      "type": "possessive",
+      "english": "her cat",
+      "german": "ihre Katze"
+    }
+  ]
+}
