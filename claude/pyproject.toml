@@ -1,0 +1,23 @@
+[project]
+name = "german-tts-generator"
+version = "0.1.0"
+description = "German language-learning audio generator using Google Cloud TTS and Claude"
+requires-python = ">=3.10"
+dependencies = [
+    "google-cloud-texttospeech",
+    "pydub",
+    "anthropic",
+    # pydub needs the stdlib `audioop` module, which was removed in Python 3.13
+    # (PEP 594); audioop-lts restores it. Only needed on 3.13+.
+    "audioop-lts; python_version >= '3.13'",
+]
+
+# This is a standalone script, not an installable package, so uv should not
+# try to build/install it — just manage its dependency environment.
+[tool.uv]
+package = false
+
+# Requires the ffmpeg system binary on PATH (used by pydub for reading/exporting
+# audio and for the pitch-preserving atempo slowdown). It is NOT a Python
+# package — install via your OS package manager, e.g.:
+#   sudo apt install ffmpeg   /   brew install ffmpeg

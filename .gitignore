@@ -1,3 +1,4 @@
 .env
 junk/
 __pycache__/
+.venv/
