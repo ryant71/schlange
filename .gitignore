@@ -2,3 +2,5 @@
 junk/
 __pycache__/
 .venv/
+# Bulky, derived audio from german_tts_generator.py (data/sentences.json is tracked)
+claude/output/
