@@ -1,0 +1,902 @@
+{
+  "a1_ich": {
+    "german": "Ich heiße Veronika.",
+    "english": "My name is Veronika.",
+    "word": "ich",
+    "level": "A1",
+    "freq_rank": 1,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_sie1": {
+    "german": "Wie heißt sie?",
+    "english": "What’s her name?",
+    "word": "sie(1)",
+    "level": "A1",
+    "freq_rank": 2,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_sie2": {
+    "german": "Wie heißen Sie, bitte?",
+    "english": "What’s your name, please?",
+    "word": "Sie(2)",
+    "level": "A1",
+    "freq_rank": 2,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nicht1": {
+    "german": "Das stimmt nicht.",
+    "english": "That’s not true.",
+    "word": "nicht(1)",
+    "level": "A1",
+    "freq_rank": 6,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nicht2": {
+    "german": "Das ist doch schön, nicht?",
+    "english": "That’s nice, isn’t it?",
+    "word": "nicht(2)",
+    "level": "A1",
+    "freq_rank": 6,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_es": {
+    "german": "Es regnet.",
+    "english": "It is raining.",
+    "word": "es",
+    "level": "A1",
+    "freq_rank": 8,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_und": {
+    "german": "Peter und Helmut sind meine Söhne.",
+    "english": "Peter and Helmut are my sons.",
+    "word": "und",
+    "level": "A1",
+    "freq_rank": 9,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_der_die_das1": {
+    "german": "Ich nehme das da.",
+    "english": "I’ll take that one there.",
+    "word": "der, die, das(1)",
+    "level": "A1",
+    "freq_rank": 10,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_der_die_das2": {
+    "german": "Hier ist der Brief, den du suchst.",
+    "english": "Here is the letter you’re looking for.",
+    "word": "der, die, das(2)",
+    "level": "A1",
+    "freq_rank": 10,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_der_die_das3": {
+    "german": "Die Fahrkarte bekommst du am Bahnhof.",
+    "english": "You get the ticket at the station.",
+    "word": "der, die, das(3)",
+    "level": "A1",
+    "freq_rank": 10,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wir": {
+    "german": "Wir lernen Deutsch.",
+    "english": "We are learning German.",
+    "word": "wir",
+    "level": "A1",
+    "freq_rank": 11,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_was1": {
+    "german": "Was ist das?",
+    "english": "What is that?",
+    "word": "was(1)",
+    "level": "A1",
+    "freq_rank": 12,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_was2": {
+    "german": "Was möchten Sie?",
+    "english": "What would you like?",
+    "word": "was(2)",
+    "level": "A1",
+    "freq_rank": 12,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_zu1": {
+    "german": "Der Bus fährt zum Bahnhof.",
+    "english": "The bus goes to the train station.",
+    "word": "zu(1)",
+    "level": "A1",
+    "freq_rank": 13,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_zu2": {
+    "german": "Ich gehe zu Fuß.",
+    "english": "I am going on foot.",
+    "word": "zu(2)",
+    "level": "A1",
+    "freq_rank": 13,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_zu3": {
+    "german": "Ich bin zu Hause.",
+    "english": "I am at home.",
+    "word": "zu(3)",
+    "level": "A1",
+    "freq_rank": 13,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_er": {
+    "german": "Er heißt Ali.",
+    "english": "His name is Ali.",
+    "word": "er",
+    "level": "A1",
+    "freq_rank": 14,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_in1": {
+    "german": "Ich wohne in Wiesbaden.",
+    "english": "I live in Wiesbaden.",
+    "word": "in(1)",
+    "level": "A1",
+    "freq_rank": 16,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_in2": {
+    "german": "Der Zug kommt in fünf Minuten.",
+    "english": "The train arrives in five minutes.",
+    "word": "in(2)",
+    "level": "A1",
+    "freq_rank": 16,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_in3": {
+    "german": "Frau Rausch arbeitet in einem Geschäft.",
+    "english": "Ms. Rausch works in a store.",
+    "word": "in(3)",
+    "level": "A1",
+    "freq_rank": 16,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_in4": {
+    "german": "Komm, wir gehen ins Kino.",
+    "english": "Come, we are going to the cinema.",
+    "word": "in(4)",
+    "level": "A1",
+    "freq_rank": 16,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_ja": {
+    "german": "Sind Sie Herr Watanabe? – Ja.",
+    "english": "Are you Mr. Watanabe? – Yes.",
+    "word": "ja",
+    "level": "A1",
+    "freq_rank": 17,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_mit": {
+    "german": "Trinken Sie den Kaffee mit Milch?",
+    "english": "Do you take your coffee with milk?",
+    "word": "mit",
+    "level": "A1",
+    "freq_rank": 19,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wie1": {
+    "german": "Wie heißt du?",
+    "english": "What’s your name?",
+    "word": "wie(1)",
+    "level": "A1",
+    "freq_rank": 20,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wie2": {
+    "german": "Er schreibt wie ein Kind.",
+    "english": "He writes like a child.",
+    "word": "wie(2)",
+    "level": "A1",
+    "freq_rank": 20,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wie3": {
+    "german": "Meine Frau ist so groß wie ich.",
+    "english": "My wife is as tall as I am.",
+    "word": "wie(3)",
+    "level": "A1",
+    "freq_rank": 20,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wie4": {
+    "german": "Wie soll ich das machen?",
+    "english": "How should I do that?",
+    "word": "wie(4)",
+    "level": "A1",
+    "freq_rank": 20,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wie5": {
+    "german": "Wie groß ist die Wohnung?",
+    "english": "How big is the apartment?",
+    "word": "wie(5)",
+    "level": "A1",
+    "freq_rank": 20,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wie6": {
+    "german": "Wie bitte?",
+    "english": "Pardon me?",
+    "word": "wie(6)",
+    "level": "A1",
+    "freq_rank": 20,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wie7": {
+    "german": "Wie lange bist du schon hier?",
+    "english": "How long have you been here?",
+    "word": "wie(7)",
+    "level": "A1",
+    "freq_rank": 20,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_auf1": {
+    "german": "Die Kinder spielen auf der Straße.",
+    "english": "The children are playing on the street.",
+    "word": "auf(1)",
+    "level": "A1",
+    "freq_rank": 23,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_auf2": {
+    "german": "Auf Wiedersehen.",
+    "english": "Goodbye.",
+    "word": "auf(2)",
+    "level": "A1",
+    "freq_rank": 23,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_aber": {
+    "german": "Ich bin oft im Büro, aber nur für wenige Stunden.",
+    "english": "I am often in the office, but only for a few hours.",
+    "word": "aber",
+    "level": "A1",
+    "freq_rank": 25,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_so1": {
+    "german": "Sie müssen das so machen!",
+    "english": "You have to do it like this!",
+    "word": "so(1)",
+    "level": "A1",
+    "freq_rank": 27,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_so2": {
+    "german": "Fahren Sie bitte nicht so schnell!",
+    "english": "Please don’t drive so fast!",
+    "word": "so(2)",
+    "level": "A1",
+    "freq_rank": 27,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_so3": {
+    "german": "Meine Frau ist so groß wie ich.",
+    "english": "My wife is as tall as I am.",
+    "word": "so(3)",
+    "level": "A1",
+    "freq_rank": 27,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_so4": {
+    "german": "So, das war‘s/wär‘s!",
+    "english": "So, that’s it!",
+    "word": "so(4)",
+    "level": "A1",
+    "freq_rank": 27,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_hier1": {
+    "german": "Hier ist 06131-553221, Pamela Linke.",
+    "english": "Here is 06131-553221, Pamela Linke.",
+    "word": "hier(1)",
+    "level": "A1",
+    "freq_rank": 29,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_hier2": {
+    "german": "Hier wohne ich.",
+    "english": "This is where I live.",
+    "word": "hier(2)",
+    "level": "A1",
+    "freq_rank": 29,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_haben": {
+    "german": "Ich habe ein neues Auto.",
+    "english": "I have a new car.",
+    "word": "haben",
+    "level": "A1",
+    "freq_rank": 30,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_für": {
+    "german": "Das ist für Sie.",
+    "english": "This is for you.",
+    "word": "für",
+    "level": "A1",
+    "freq_rank": 31,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_für2": {
+    "german": "Das ist der Schlüssel für die Haustür.",
+    "english": "This is the key for the front door.",
+    "word": "für(2)",
+    "level": "A1",
+    "freq_rank": 31,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_für3": {
+    "german": "Das ist das Brot für morgen.",
+    "english": "This is the bread for tomorrow.",
+    "word": "für(3)",
+    "level": "A1",
+    "freq_rank": 31,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_von1": {
+    "german": "Das Auto von Felix ist kaputt.",
+    "english": "Felix's car is broken.",
+    "word": "von(1)",
+    "level": "A1",
+    "freq_rank": 34,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_von2": {
+    "german": "Er kommt gerade von Köln/von zu Hause.",
+    "english": "He just came from Cologne/from home.",
+    "word": "von(2)",
+    "level": "A1",
+    "freq_rank": 34,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_dich": {
+    "german": "Die Blumen sind für dich.",
+    "english": "The flowers are for you.",
+    "word": "dich",
+    "level": "A1",
+    "freq_rank": 36,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nein": {
+    "german": "Fährst du auch nach München? – Nein, ich habe keine Zeit.",
+    "english": "Are you going to Munich too? – No, I don’t have time.",
+    "word": "nein",
+    "level": "A1",
+    "freq_rank": 38,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_an1": {
+    "german": "Fahren Sie an der nächsten Straße nach rechts.",
+    "english": "Turn right at the next street.",
+    "word": "an(1)",
+    "level": "A1",
+    "freq_rank": 40,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_an2": {
+    "german": "Wir treffen uns am Bahnhof.",
+    "english": "We meet at the train station.",
+    "word": "an(2)",
+    "level": "A1",
+    "freq_rank": 40,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_an3": {
+    "german": "Am nächsten Montag geht es leider nicht.",
+    "english": "Sorry, it won't work next Monday.",
+    "word": "an(3)",
+    "level": "A1",
+    "freq_rank": 40,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_noch1": {
+    "german": "Vielleicht kommt er noch.",
+    "english": "Maybe he’ll come after all.",
+    "word": "noch(1)",
+    "level": "A1",
+    "freq_rank": 42,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_noch2": {
+    "german": "Wir warten noch fünf Minuten.",
+    "english": "We’ll wait another five minutes.",
+    "word": "noch(2)",
+    "level": "A1",
+    "freq_rank": 42,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_noch3": {
+    "german": "Ich habe noch 20 Euro.",
+    "english": "I still have 20 euros.",
+    "word": "noch(3)",
+    "level": "A1",
+    "freq_rank": 42,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nur": {
+    "german": "Ich möchte nur ein Glas Wasser.",
+    "english": "I’d like only a glass of water.",
+    "word": "nur",
+    "level": "A1",
+    "freq_rank": 43,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_da1": {
+    "german": "Da hinten ist er ja.",
+    "english": "There he is over there.",
+    "word": "da(1)",
+    "level": "A1",
+    "freq_rank": 44,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_da2": {
+    "german": "Wir sprechen gerade über Paul. Da kommt er ja gerade.",
+    "english": "We’re talking about Paul. There he comes.",
+    "word": "da(2)",
+    "level": "A1",
+    "freq_rank": 44,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_da3": {
+    "german": "Ich nehme das da.",
+    "english": "I'll take that one there.",
+    "word": "da(3)",
+    "level": "A1",
+    "freq_rank": 44,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_da4": {
+    "german": "Ist Herr Klein schon da?",
+    "english": "Is Mr. Klein already here?",
+    "word": "da(4)",
+    "level": "A1",
+    "freq_rank": 44,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_dir": {
+    "german": "Gefallen dir die Blumen?",
+    "english": "Do you like the flowers?",
+    "word": "dir",
+    "level": "A1",
+    "freq_rank": 45,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_sich": {
+    "german": "Sie müssen sich erst anmelden.",
+    "english": "You must first register.",
+    "word": "sich",
+    "level": "A1",
+    "freq_rank": 46,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_gut1": {
+    "german": "Das finde ich gut.",
+    "english": "I think that’s good.",
+    "word": "gut(1)",
+    "level": "A1",
+    "freq_rank": 52,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_gut2": {
+    "german": "Ich komme um 13 Uhr. – Gut!",
+    "english": "I’ll come at 1 PM. – Good!",
+    "word": "gut(2)",
+    "level": "A1",
+    "freq_rank": 52,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_gut3": {
+    "german": "Guten Morgen!",
+    "english": "Good morning!",
+    "word": "gut(3)",
+    "level": "A1",
+    "freq_rank": 52,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_gut4": {
+    "german": "Ein gutes neues Jahr!",
+    "english": "A good new year!",
+    "word": "gut(4)",
+    "level": "A1",
+    "freq_rank": 52,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_gut5": {
+    "german": "Guten Appetit!",
+    "english": "Enjoy your meal!",
+    "word": "gut(5)",
+    "level": "A1",
+    "freq_rank": 52,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_auch": {
+    "german": "Ich bin auch Spanier.",
+    "english": "I am also Spanish.",
+    "word": "auch",
+    "level": "A1",
+    "freq_rank": 53,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_schon1": {
+    "german": "Ist das Essen schon fertig?",
+    "english": "Is the food ready yet?",
+    "word": "schon(1)",
+    "level": "A1",
+    "freq_rank": 54,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_schon2": {
+    "german": "Das ist sehr schön.",
+    "english": "That’s very nice.",
+    "word": "schon(2)",
+    "level": "A1",
+    "freq_rank": 54,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_sein1": {
+    "german": "Herr Müller ist in seinem Zimmer.",
+    "english": "Mr. Müller is in his room.",
+    "word": "sein(1)",
+    "level": "A1",
+    "freq_rank": 56,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_sein2": {
+    "german": "Mir ist kalt.",
+    "english": "I am cold.",
+    "word": "sein(2)",
+    "level": "A1",
+    "freq_rank": 56,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_sein3": {
+    "german": "Ich bin dreiundzwanzig.",
+    "english": "I am twenty-three.",
+    "word": "sein(3)",
+    "level": "A1",
+    "freq_rank": 56,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_jetzt": {
+    "german": "Jetzt machen wir eine Pause.",
+    "english": "Now we are taking a break.",
+    "word": "jetzt",
+    "level": "A1",
+    "freq_rank": 58,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_dann": {
+    "german": "Ich muss noch schnell zur Post, dann komme ich.",
+    "english": "I need to quickly go to the post office, then I'll come.",
+    "word": "dann",
+    "level": "A1",
+    "freq_rank": 60,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_aus": {
+    "german": "Er kommt aus Brasilien.",
+    "english": "He comes from Brazil.",
+    "word": "aus",
+    "level": "A1",
+    "freq_rank": 61,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_um1": {
+    "german": "Er kommt um sieben Uhr.",
+    "english": "He’s coming at seven o'clock.",
+    "word": "um(1)",
+    "level": "A1",
+    "freq_rank": 63,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_um2": {
+    "german": "Da kommt er gerade um die Ecke.",
+    "english": "There he is, just around the corner.",
+    "word": "um(2)",
+    "level": "A1",
+    "freq_rank": 63,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_mein": {
+    "german": "Mein Vater ist Arzt.",
+    "english": "My father is a doctor.",
+    "word": "mein",
+    "level": "A1",
+    "freq_rank": 66,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_oder": {
+    "german": "Wann können Sie kommen – heute oder morgen?",
+    "english": "When can you come – today or tomorrow?",
+    "word": "oder",
+    "level": "A1",
+    "freq_rank": 72,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nach1": {
+    "german": "Ich gehe jetzt nach Hause.",
+    "english": "I’m going home now.",
+    "word": "nach(1)",
+    "level": "A1",
+    "freq_rank": 73,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nach2": {
+    "german": "Ich fliege nach München.",
+    "english": "I’m flying to Munich.",
+    "word": "nach(2)",
+    "level": "A1",
+    "freq_rank": 73,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nach3": {
+    "german": "Es ist schon 5 nach 12.",
+    "english": "It’s already 5 minutes past 12.",
+    "word": "nach(3)",
+    "level": "A1",
+    "freq_rank": 73,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nichts1": {
+    "german": "Das macht nichts.",
+    "english": "It doesn’t matter.",
+    "word": "nichts(1)",
+    "level": "A1",
+    "freq_rank": 75,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_nichts2": {
+    "german": "Hier kaufe ich nichts. Der Laden gefällt mir nicht.",
+    "english": "I’m not buying anything here. I don’t like the store.",
+    "word": "nichts(2)",
+    "level": "A1",
+    "freq_rank": 75,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_man": {
+    "german": "Hier darf man nicht rauchen.",
+    "english": "Smoking is not allowed here.",
+    "word": "man",
+    "level": "A1",
+    "freq_rank": 76,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_werden1": {
+    "german": "Mein Sohn will Arzt werden.",
+    "english": "My son wants to become a doctor.",
+    "word": "werden(1)",
+    "level": "A1",
+    "freq_rank": 78,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wo1": {
+    "german": "Wo waren Sie im Urlaub?",
+    "english": "Where were you on vacation?",
+    "word": "wo(1)",
+    "level": "A1",
+    "freq_rank": 82,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wo2": {
+    "german": "Wo ist die Post?",
+    "english": "Where is the post office?",
+    "word": "wo(2)",
+    "level": "A1",
+    "freq_rank": 82,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_wo3": {
+    "german": "Wo sind Sie geboren?",
+    "english": "Where were you born?",
+    "word": "wo(3)",
+    "level": "A1",
+    "freq_rank": 82,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_mehr": {
+    "german": "Dieses Auto kostet 1.000 Euro mehr als das andere.",
+    "english": "This car costs 1,000 euros more than the other one.",
+    "word": "mehr",
+    "level": "A1",
+    "freq_rank": 85,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_bei1": {
+    "german": "Offenbach liegt bei Frankfurt.",
+    "english": "Offenbach is near Frankfurt.",
+    "word": "bei(1)",
+    "level": "A1",
+    "freq_rank": 86,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_bei2": {
+    "german": "Ich wohne bei meinen Eltern.",
+    "english": "I live with my parents.",
+    "word": "bei(2)",
+    "level": "A1",
+    "freq_rank": 86,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_bei3": {
+    "german": "Bei uns regnet es heute.",
+    "english": "It’s raining here today.",
+    "word": "bei(3)",
+    "level": "A1",
+    "freq_rank": 86,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_bei4": {
+    "german": "Er arbeitet bei der Polizei.",
+    "english": "He works at the police station.",
+    "word": "bei(4)",
+    "level": "A1",
+    "freq_rank": 86,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_also1": {
+    "german": "Also, es ist so: …",
+    "english": "Well, it is like this: …",
+    "word": "also(1)",
+    "level": "A1",
+    "freq_rank": 87,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_also2": {
+    "german": "Er hat Zeit, also muss er uns helfen.",
+    "english": "He has time, so he has to help us.",
+    "word": "also(2)",
+    "level": "A1",
+    "freq_rank": 87,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_bitte1": {
+    "german": "Eine Tasse Kaffee, bitte!",
+    "english": "A cup of coffee, please!",
+    "word": "bitte(1)",
+    "level": "A1",
+    "freq_rank": 88,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_bitte2": {
+    "german": "Sprechen Sie bitte leise!",
+    "english": "Please speak quietly!",
+    "word": "bitte(2)",
+    "level": "A1",
+    "freq_rank": 88,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_die_bitte_n": {
+    "german": "Ich habe noch eine Bitte.",
+    "english": "I have one more request.",
+    "word": "die Bitte, -n",
+    "level": "A1",
+    "freq_rank": 88,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_immer": {
+    "german": "Frau Bast kommt immer zu spät.",
+    "english": "Ms. Bast always arrives late.",
+    "word": "immer",
+    "level": "A1",
+    "freq_rank": 89,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  },
+  "a1_warum": {
+    "german": "Warum kommt er nicht?",
+    "english": "Why isn’t he coming?",
+    "word": "warum",
+    "level": "A1",
+    "freq_rank": 91,
+    "source": "goethe-wortliste",
+    "audio_generated": true
+  }
+}
